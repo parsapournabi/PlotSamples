@@ -5,7 +5,8 @@ QT += quick charts
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += $$files(*.cpp, true)
-HEADERS += $$files(*.h, true)
+HEADERS += $$files(*.h, true) \
+    Samples/ScatterLeafAdapter.h
 
 DISTFILES += $$files(*.qml, true) \
     Qml/ScatterLeafPlot.qml
