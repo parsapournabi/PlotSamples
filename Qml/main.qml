@@ -6,4 +6,9 @@ Window {
     height: 480
     visible: true
     title: qsTr("PlotSamples")
+
+    ScatterLeafPlot {
+        anchors.fill: parent
+    }
+
 }
